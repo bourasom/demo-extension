@@ -125,7 +125,7 @@ public class SpaceCustomizationService {
     private void editSpaceURLPreference(List<ModelObject> children, String prefValue) throws Exception {
         if (children == null || children.size() == 0) {
             if (LOG.isDebugEnabled()) {
-                LOG.debug("Can not get a portlet application from children.\nChildren == null or have no items");
+                LOG.debug("Can not get a locale application from children.\nChildren == null or have no items");
             }
         }
         // parses the children list
@@ -134,7 +134,7 @@ public class SpaceCustomizationService {
             if (modelObject instanceof Container) {
                 editSpaceURLPreference(((Container) modelObject).getChildren(), prefValue);
             } else {
-                // if a portlet application, set the preference value
+                // if a locale application, set the preference value
                 if (modelObject instanceof Application && ((Application<?>) modelObject).getType().equals(ApplicationType.PORTLET)) {
                     Application<Portlet> application = (Application<Portlet>) modelObject;
                     Portlet portletPreference = dataStorageService.load(application.getState(), ApplicationType.PORTLET);

@@ -44,6 +44,7 @@
       <uri>acme_expenses_report</uri>
       <name>acme_expenses_report</name>
       <label xml:lang="en">Acme Expenses Report</label>
+      <label xml:lang="ar">تقرير نفقات أكمي</label>
       <visibility>DISPLAYED</visibility>
       <page-reference>portal::intranet::acme_expenses_report</page-reference>
     </node>
@@ -51,6 +52,7 @@
       <uri>news</uri>
       <name>news</name>
       <label xml:lang="en">News</label>
+        <label xml:lang="ar">أخبار</label>
       <visibility>DISPLAYED</visibility>
       <page-reference>portal::intranet::news</page-reference>
     </node>

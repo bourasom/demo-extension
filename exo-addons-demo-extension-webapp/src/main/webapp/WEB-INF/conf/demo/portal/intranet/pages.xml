@@ -100,7 +100,7 @@
           <show-application-mode>false</show-application-mode>
         </portlet-application>
 
-        <!-- user activities portlet -->
+        <!-- user activities locale -->
         <portlet-application>
           <portlet>
             <application-ref>social-portlet</application-ref>

@@ -51,6 +51,10 @@
      <supports>
        <mime-type>text/html</mime-type>
      </supports>
+     <supported-locale>en</supported-locale>
+     <supported-locale>fr</supported-locale>
+     <supported-locale>ar</supported-locale>
+     <resource-bundle>locale.portlet.todo.todo</resource-bundle>
      <portlet-info>
        <title>Todo</title>
        <short-title>Todo</short-title>
