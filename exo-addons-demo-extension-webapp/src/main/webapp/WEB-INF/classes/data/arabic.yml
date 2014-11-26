@@ -1,4 +1,4 @@
-defaults:
+﻿defaults:
 - mary: mary
   james: james
   robert: robert
@@ -113,14 +113,14 @@ spaces:
     - <USERNAME>
 
 calendars:
-- user:  john
+- user: john
   calendars:
-  - name:  جون سميث
+  - name: John Smith
     color: powder_blue
     type: user
     events:
-      - title: اجتماعات مديري المنتوج
-        day: الاثنين
+      - title: Réunion CP
+        day: monday
         start: 10:00
         end: 12:00
 - user: <USERNAME>
@@ -129,115 +129,115 @@ calendars:
     color: powder_blue
     type: user
     events:
-      - title: مراجعة المواصفات
-        day: الاثنين
+      - title: Revue de spec
+        day: monday
         start: 17:00
         end: 19:00
-      - title: عمل جماعي
-        day: الثلاثاء
+      - title: Réunion d'équipe
+        day: tuesday
         start: 14:00
         end: 18:00
-      - title: EOW اجتماع فريق
-        day: الجمعة
+      - title: Réunion EOW
+        day: friday
         start: 13:00
         end: 15:00
-  - name: محادثات عامّة
-    color: برتقالي
+  - name: Discussions Générales
+    color: orange
     events:
-      - title: عملية نقل البيانات
-        day: الأربعاء
+      - title: Migriation de l'Intranet
+        day: wednesday
         start: 10:00
         end: 14:00
-      - title: مأدبة عشاء للشركة
-        day: الخميس
+      - title: Diner du mois
+        day: thursday
         start: 17:30
         end: 20:00
-  - name: مبيعات
+  - name: Equipe Commerciale
     color: moss_green
     events:
-      - title: مراجعة قائمة الانتظار
-        day: الاثنين
+      - title: Revue de Pipe
+        day: monday
         start: 10:00
         end: 11:30
-      - title: تجربة توضيحيّة لفريق العمل
-        day: الأربعاء
+      - title: Démo équipe produit
+        day: wednesday
         start: 15:00
         end: 16:00
-      - title: مؤتمر المبيعات عن بعد
-        day: الخميس
+      - title: Webinaire ventes
+        day: thursday
         start: 11:00
         end: 12:00
-  - name: مشروع انترنات إجتماعي
+  - name: Projet Intranet Social
     color: light_purple
     events:
-      - title: تجربة توضيحيّة للانترانات
-        day: الخميس
+      - title: Démo Intranet
+        day: thursday
         start: 13:00
         end: 17:00
-      - title: أسئلة و أجوبة بين نواب مجلس الادارة
-        day: الجمعة
+      - title: Session Q&R
+        day: friday
         start: 16:00
         end: 17:00
-  - name: الموارد البشرية
-    color: رمادي
+  - name: Département RH
+    color: gray
     events:
-      - title: الاجتماع الاسبوعي لفريق عمل الموارد البشرية
-        day: الجمعة
+      - title: Réunion hebdo
+        day: friday
         start: 10:00
         end: 11:30
-  - name: مؤشّرات التسويق
-    color: وردي
+  - name: Département Marketing
+    color: pink
     events:
-      - title: دراسة طريقة تعقّب زبائن جدد
-        day: الثلاثاء
+      - title: Lead Gen Study
+        day: tuesday
         start: 9:30
         end: 12:30
-      - title: تحيينات التحاليل
-        day: الأربعاء
+      - title: Mise à jour Analytics
+        day: wednesday
         start: 17:00
         end: 19:00
 
 wikis:
-  - title: الصفحة الرئيسية للويكي
-    type: بوابة
-    owner: انترانات
+  - title: Wiki Home
+    type: portal
+    owner: intranet
     filename: wiki-home.txt
-  - title: نشاطات واحداث المشاركة
+  - title: Activity Stream Engagement
     filename: activity-stream-engagement.txt
-    parent: الصفحة الرئيسية للويكي
+    parent: Wiki Home
     new: true
   - title: How-To Guide
     filename: how-to-guide.txt
-    parent: الصفحة الرئيسية للويكي
+    parent: Wiki Home
     new: true
-  - title: تخطيط عملية المغادرة
+  - title: Leave Planning
     filename: leave-planning.txt
-    parent: الصفحة الرئيسية للويكي
+    parent: Wiki Home
     new: true
-  - title: ملاحظات الاجتماع
-    parent: الصفحة الرئيسية للويكي
+  - title: Meeting Notes
+    parent: Wiki Home
     wikis:
-      - title: 0107 إجتماعات اطارات المؤسسة
-      - title: 0114 إجتماعات اطارات المؤسسة
+      - title: 0107 Company Meeting
+      - title: 0114 Company Meeting
         wikis:
-          - title: المرفقات
-  - title: المعارف العامة
-    parent: الصفحة الرئيسية للويكي
+          - title: Attachments
+  - title: General Knowledge
+    parent: Wiki Home
     wikis:
-      - title: الجديد في الشركة
-      - title: طريقة تنظيم فريق الانترانات
-  - title: بائعي البرمجيات الحاسوبيّة
-    type: مجموعة
+      - title: New in the Company
+      - title: Intranet Team Organization
+  - title: Sofware Vendors
+    type: group
     owner: spaces/social_intranet
-    parent: الصفحة الرئيسية للويكي
-  - title: اعادة تأهيل الموظفين
-    type: مجموعة
+    parent: Wiki Home
+  - title: Employee Onboarding
+    type: group
     owner: spaces/social_intranet
-    parent: الصفحة الرئيسية للويكي
-  - title: مقترحات خاصّة بتصميم الموقع
-    type: مجموعة
+    parent: Wiki Home
+  - title: Web Design Proposals
+    type: group
     owner: spaces/social_intranet
-    parent: الصفحة الرئيسية للويكي
+    parent: Wiki Home
 
 activities:
   - from: <USERNAME>

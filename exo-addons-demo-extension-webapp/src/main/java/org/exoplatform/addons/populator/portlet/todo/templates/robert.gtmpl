@@ -1,7 +1,7 @@
 <div class="simpleTodoPortlet">
   <div class="todoPortletData uiBox">
     <h6 class="title clearfix">
-      Market Trends
+      &{todo.markettrand}
     </h6>
     <div class="uiContentBox">
       <div class="stock">
@@ -21,7 +21,7 @@
       </div>
       <hr/>
       <ul>
-        <li><a class="link" href="http://www.salesforce.com">Salesforce Account</a></li>
+        <li><a class="link" href="http://www.salesforce.com">&{todo.salesforce}</a></li>
       </ul>
     </div>
   </div>
